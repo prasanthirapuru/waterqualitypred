@@ -1,39 +1,58 @@
-🌊 Water Quality Prediction
-This project predicts the quality of water using machine learning techniques implemented in Python. It analyzes various physicochemical parameters of water to determine whether it is potable (safe for drinking) or not.
+# 💧 Water Pollutants Prediction
 
-🧠 Technologies Used
-Python
+A Streamlit web application that predicts water pollutant levels based on the **year** and **station ID** using a machine learning model trained on historical water quality data (2000–2021).
 
-Pandas, NumPy
+---
 
-Scikit-learn
+## 🚀 Project Overview
 
-Matplotlib / Seaborn (for visualization)
+This project is built to help analyze water pollution trends by estimating six key pollutants:
 
-Jupyter Notebook
+- **O₂** (Oxygen)
+- **NO₃** (Nitrate)
+- **NO₂** (Nitrite)
+- **SO₄** (Sulfate)
+- **PO₄** (Phosphate)
+- **CL** (Chloride)
 
-📁 Project Files
-Due to file size limitations, the complete notebook and resources are stored in Google Drive.
+It uses a trained machine learning model and provides an easy-to-use interface for making predictions.
 
-📎 Access the Project Here:
-Water Quality Prediction - Google Drive
+---
 
-📊 Features
-Data Cleaning & Preprocessing
+## 🧪 Features
 
-Exploratory Data Analysis
+- 🔢 Input: Year and Station ID  
+- 📊 Output: Predicted pollutant levels  
+- 🎯 Model: Pre-trained ML model using historical data  
+- 🌐 Interface: Built using Streamlit for ease of access and deployment  
 
-Correlation Heatmap
+---
 
-Model Training & Accuracy Testing
+## 🗂️ Files in This Repository
 
-Prediction of water potability
+| File Name                | Description                                      |
+|--------------------------|--------------------------------------------------|
+| `app.py`                 | Main Streamlit app for predicting pollutants     |
+| `pollution_model.pkl`    | Trained ML model file                            |
+| `model_columns.pkl`      | Model's expected input feature columns           |
+| `PB_All_2000_2021.csv`   | Historical water quality dataset (2000–2021)     |
+| `WaterQualityPred.ipynb` | Jupyter Notebook used for training the model     |
 
-📌 Usage
-Download the .ipynb file from the Google Drive link above.
+---
+## 🔗 ACCESS & TECH STACK
 
-Open in Jupyter Notebook / Google Colab.
+📁 **model-link**  
+👉 https://drive.google.com/file/d/1np0Xo-di9083ehxeKC4vRAx3gYZ-98OP/view?usp=drive_link
 
-Install required libraries using pip install -r requirements.txt (optional step).
+🛠️ **Tech Stack Used**  
+• Python 3.12  
+• Pandas, NumPy – Data handling  
+• Scikit-learn – Machine learning model and evaluation  
+• Matplotlib, Seaborn – Data visualization  
+• Jupyter Notebook – Interactive experimentation  
+• Streamlit – Web application interface  
+• Joblib, Pickle – Model serialization  
 
-Run the cells in order to understand and test the model.
+That's it for now. Thanks for visiting! 🙌  
+Stay tuned for updates or contribute to make it even better.  
+
